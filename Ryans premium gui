@@ -24,6 +24,8 @@ main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 main.Position = UDim2.new(0.0184921734, 0, 0.0569744706, 0)
 main.Size = UDim2.new(0, 574, 0, 262)
+main.Active = true
+main.Draggable = true
 
 ImageLabel.Parent = main
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
