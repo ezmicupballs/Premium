@@ -1,0 +1,166 @@
+-- Made by Ryan
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Faded = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Script1 = Instance.new("TextButton")
+local Swagmode = Instance.new("TextButton")
+local script2 = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+main.Position = UDim2.new(0.0184921734, 0, 0.0569744706, 0)
+main.Size = UDim2.new(0, 574, 0, 262)
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7237997825"
+ImageLabel.ImageColor3 = Color3.fromRGB(44, 44, 44)
+
+Faded.Name = "Faded"
+Faded.Parent = main
+Faded.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Faded.Position = UDim2.new(0.0191637576, 0, 0.427480906, 0)
+Faded.Size = UDim2.new(0, 116, 0, 50)
+Faded.Font = Enum.Font.SourceSans
+Faded.Text = "Faded"
+Faded.TextColor3 = Color3.fromRGB(0, 0, 0)
+Faded.TextSize = 14.000
+Faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel.Position = UDim2.new(0.174216032, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 421, 0, 100)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Premium script with the best Fe gui,s By Ryan/bmx bike nigga#4669"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Script1.Name = "Script 1"
+Script1.Parent = main
+Script1.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Script1.Position = UDim2.new(0.266550511, 0, 0.698473275, 0)
+Script1.Size = UDim2.new(0, 126, 0, 50)
+Script1.Font = Enum.Font.SourceSans
+Script1.Text = "Script 1"
+Script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script1.TextSize = 14.000
+Script1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Swagmode.Name = "Swag mode"
+Swagmode.Parent = main
+Swagmode.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Swagmode.Position = UDim2.new(0.0191637632, 0, 0.698473275, 0)
+Swagmode.Size = UDim2.new(0, 116, 0, 50)
+Swagmode.Font = Enum.Font.SourceSans
+Swagmode.Text = "Swag mode"
+Swagmode.TextColor3 = Color3.fromRGB(0, 0, 0)
+Swagmode.TextSize = 14.000
+Swagmode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+script2.Name = "script 2"
+script2.Parent = main
+script2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+script2.Position = UDim2.new(0.541811824, 0, 0.427480906, 0)
+script2.Size = UDim2.new(0, 99, 0, 50)
+script2.Font = Enum.Font.SourceSans
+script2.Text = "script 2"
+script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+script2.TextSize = 14.000
+script2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SlaveDash/Crokuranu/main/Bedwars%20UI%20Source%20Code'))()
+end)
+
+fly.Name = "fly"
+fly.Parent = main
+fly.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+fly.Position = UDim2.new(0.266550511, 0, 0.427480906, 0)
+fly.Size = UDim2.new(0, 126, 0, 50)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextSize = 14.000
+fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ezmicupballs/fly/main/sheesh", true))()
+end)
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextLabel_2.Position = UDim2.new(0.541811824, 0, 0.698473275, 0)
+TextLabel_2.Size = UDim2.new(0, 256, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "our script mascot is bob the penguin"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.Position = UDim2.new(0.907665491, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 53, 0, 40)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+TextButton_2.Position = UDim2.new(0.813655794, 0, 0.607072711, 0)
+TextButton_2.Size = UDim2.new(0, 121, 0, 50)
+TextButton_2.Font = Enum.Font.GothamBold
+TextButton_2.Text = "open premium"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+-- Scripts:
+
+local function UWALK_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(UWALK_fake_script)()
+local function QAWME_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local frame = script.Parent.Parent.main
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(QAWME_fake_script)()
